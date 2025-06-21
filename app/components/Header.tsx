@@ -38,11 +38,6 @@ export default function Header() {
           Ato
         </Link>
       </li>
-      <li>
-        <Link href="/bastidores" onClick={() => setIsOpen(false)}>
-          Sobre
-        </Link>
-      </li>
     </ul>
   </div>
 )}
