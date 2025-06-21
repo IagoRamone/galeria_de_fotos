@@ -24,7 +24,7 @@ export default function Home() {
     "/Extra 04.JPG", 
     "/Ato 03 - A força da memória 03.JPG",
     "/Extra 05.JPG", 
-    "/Ato 03 - A força da memória 03.JPG",
+    "/Ato 03 - A força da memória 04.JPG",
   ];
 
   return (
