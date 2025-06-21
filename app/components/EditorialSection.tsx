@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface EditorialSectionProps {
   images: string[];
   description: string;
@@ -7,7 +9,7 @@ export default function EditorialSection({ images, description }: EditorialSecti
   return (
     <section className="max-w-3xl mx-auto mb-16 px-4">
       {images.map((src, index) => (
-        <img
+        <Image
           key={index}
           src={src}
           alt={`Imagem ${index + 1}`}

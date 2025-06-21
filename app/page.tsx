@@ -1,6 +1,7 @@
 "use client";
 import Header from "./components/Header";
-import { useState } from "react";
+import Image from "next/image";
+
 
 export default function Home() {
   const allImages = [
@@ -26,8 +27,6 @@ export default function Home() {
     "/Ato 03 - A força da memória 03.JPG",
   ];
 
-  const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <div className="min-h-screen bg-white text-black font-[family-name:var(--font-geist-sans)]">
       <Header />
@@ -40,7 +39,7 @@ export default function Home() {
 
       <main id="galeria" className="max-w-3xl mx-auto px-4 pt-6 pb-20 space-y-4">
         {allImages.map((src, index) => (
-          <img
+          <Image
             key={index}
             src={src}
             alt={`Imagem ${index + 1}`}

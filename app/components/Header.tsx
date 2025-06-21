@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +14,7 @@ export default function Header() {
       
     <div className="absolute left-1/2 transform -translate-x-1/2 mt-6">
       <Link href="/" onClick={() => setIsOpen(false)}>
-        <img src="/logo.png" alt="Logo" className="h-28 w-auto cursor-pointer" />
+        <Image src="/logo.png" alt="Logo" className="h-28 w-auto cursor-pointer" />
       </Link>
     </div>
 
