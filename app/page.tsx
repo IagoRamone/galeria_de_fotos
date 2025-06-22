@@ -37,16 +37,41 @@ export default function Home() {
         </p>
       </section>
 
-      <main id="galeria" className="max-w-3xl mx-auto px-4 pt-6 pb-20 space-y-4">
-        {allImages.map((src, index) => (
-          <Image
-            key={index}
-            src={src}
-            alt={`Imagem ${index + 1}`}
-            className="w-full"
-          />
-        ))}
-      </main>
+      <main
+  id="galeria"
+  className="px-4 pt-6 pb-20"
+>
+  {/* Mobile: rolagem horizontal */}
+  <div className="flex gap-4 overflow-x-auto sm:hidden pb-4">
+    {allImages.map((src, index) => (
+      <div key={index} className="flex-shrink-0 w-64">
+        <Image
+          src={src}
+          alt={`Imagem ${index + 1}`}
+          width={640}
+          height={480}
+          className="w-full h-auto rounded"
+        />
+      </div>
+    ))}
+  </div>
+
+  {/* Desktop: grid */}
+  <div className="hidden sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    {allImages.map((src, index) => (
+      <div key={index}>
+        <Image
+          src={src}
+          alt={`Imagem ${index + 1}`}
+          width={1200}
+          height={900}
+          className="w-full h-auto rounded"
+        />
+      </div>
+    ))}
+  </div>
+</main>
+
 
       <section className="max-w-xl mx-auto px-4 text-center mt-10">
         <blockquote className="italic text-neutral-600 text-sm">
