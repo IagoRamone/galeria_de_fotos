@@ -28,6 +28,7 @@ export default function Home() {
     {
       title: "Ato 3 – Memória",
       images: [
+        "/Ato 03 - A força da memória 04.JPG",
         "/Ato 03 - A força da memória 01.JPG",
         "/Extra 06.JPG",
         "/Extra 08.JPG",
@@ -40,7 +41,6 @@ export default function Home() {
         "/Extra 04.JPG",
         "/Ato 03 - A força da memória 03.JPG",
         "/Extra 05.JPG",
-        "/Ato 03 - A força da memória 04.JPG",
       ],
     },
   ];

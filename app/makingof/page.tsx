@@ -10,7 +10,7 @@ export default function MakingOf() {
         <section className="max-w-3xl mx-auto text-center">
           <h1 className="text-3xl font-bold mb-4">Making of</h1>
           <p className="text-base text-neutral-700 mb-6">
-            Por trás das câmeras, cada ponto, cada clique e cada riso se entrelaçam. Este making of mostra a cumplicidade e os bastidores da construção do nosso editorial “Fuxicos que Vestem Memórias”.
+            Por trás das câmeras, cada ponto, cada clique e cada riso se entrelaçam. Este making of mostra a cumplicidade e os bastidores da construção do nosso editorial “Memórias que se vestem”.
           </p>
         </section>
 
