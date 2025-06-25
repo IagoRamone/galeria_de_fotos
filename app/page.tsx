@@ -58,19 +58,42 @@ export default function Home() {
   {/* Carta Carta */}
       <div className="sm:w-2/3 space-y-4">
         <h2 className="text-xl font-semibold">
-          Carta Editorial: O que vestimos não é só moda, é memória em forma de afeto.
+          Carta Editorial: Memórias que se vestem
         </h2>
+        <h3>
+          Data: 15/06/2025
+        </h3>
         <p>
-          Nosso editorial nasce do desejo de questionar e desconstruir os estereótipos de gênero impostos pela sociedade...
+         O que vestimos não é só moda - é memória em forma de afeto.
         </p>
+        <br></br>
         <p>
-          Inspirados por marcas como Another Place e Dendezeiro...
+          Nosso editorial nasce da vontade de costurar o passado ao presente, ponto a ponto, como se cada tecido
+carregasse uma história que insiste em permanecer. "Memórias que se vestem" é mais do que uma proposta
+estética: é uma homenagem ao tempo, às mãos que criam, e à afetividade que habita o fazer artesanal.
         </p>
+        <br></br>
         <p>
-          Nosso público é composto por pessoas que veem a moda como ferramenta de expressão...
+          Escolhemos as colchas de fuxico como matéria-prima dos nossos looks. Elas não são apenas retalhos
+unidos, mas fragmentos de lembranças, encontros e vidas. Com elas, criamos roupas que aquecem não só
+o corpo, mas também a alma - uma espécie de abraço têxtil que atravessa gerações.
         </p>
+        <br></br>
         <p>
-          Produzimos o ensaio em estúdio para garantir liberdade criativa e controle...
+          Fotografado na Toca da Rã, em Nova Iguaçu, o editorial ganha vida em um espaço onde natureza e
+memória conversam. O cenário, simples e afetivo, sustenta a proposta de um vestir que não é sobre
+tendência, mas sobre pertencimento.
+        </p>
+        <br></br>
+        <p>
+          Nosso público são mulheres que entendem que o vestir pode ser um gesto de afeto e resistência. Mulheres
+que enxergam valor no feito à mão, no tempo da costura lenta, e na beleza das imperfeições que contam
+histórias.
+        </p>
+        <br></br>
+        <p>
+          "Memórias que se vestem" é um manifesto suave, mas potente. Um chamado para lembrar que, às vezes,
+vestir-se é também reencontrar quem a gente é.
         </p>
       </div>
     </section>
