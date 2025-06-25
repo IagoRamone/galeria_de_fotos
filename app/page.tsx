@@ -69,7 +69,7 @@ export default function Home() {
         <br></br>
         <p>
           Nosso editorial nasce da vontade de costurar o passado ao presente, ponto a ponto, como se cada tecido
-carregasse uma história que insiste em permanecer. "Memórias que se vestem" é mais do que uma proposta
+carregasse uma história que insiste em permanecer. &ldquo;Memórias que se vestem&ldquo; é mais do que uma proposta
 estética: é uma homenagem ao tempo, às mãos que criam, e à afetividade que habita o fazer artesanal.
         </p>
         <br></br>
@@ -92,7 +92,7 @@ histórias.
         </p>
         <br></br>
         <p>
-          "Memórias que se vestem" é um manifesto suave, mas potente. Um chamado para lembrar que, às vezes,
+          &ldquo;Memórias que se vestem&ldquo; é um manifesto suave, mas potente. Um chamado para lembrar que, às vezes,
 vestir-se é também reencontrar quem a gente é.
         </p>
       </div>
