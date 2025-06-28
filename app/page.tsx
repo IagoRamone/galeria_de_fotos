@@ -113,26 +113,86 @@ vestir-se é também reencontrar quem a gente é.
       </section>
 
       <main id="galeria" className="px-4 pb-20">
-        {gallery.map((section, index) => (
-          <div key={index} className="mb-12">
-            <h1 className="text-2xl font-bold my-6">{section.title}</h1>
-            <div className="flex flex-wrap gap-4">
-              {section.images.map((src, i) => (
-                <div key={i} className="w-full sm:w-[48%] lg:w-[31%]">
-                  <Image
-                  src={src}
-                  alt={`Imagem ${i + 1}`}
-                  width={1200}
-                  height={1600} 
-                  className="w-full h-auto rounded aspect-[3/4] object-cover"
-                  />
-
-                </div>
-              ))}
-            </div>
+  {gallery.map((section, index) => (
+    section.title === "Ato 2 – A Perda" ? (
+      <div key={index} className="mb-12">
+        <h1 className="text-2xl font-bold my-6">{section.title}</h1>
+        <div className="flex flex-wrap gap-4">
+          {/* Primeira linha com imagem esticada */}
+          
+          <div className="w-full sm:w-[32%]">
+            <Image
+              src="/Extra 01.JPG"
+              alt="Imagem lateral"
+              width={1200}
+              height={1600}
+              className="w-full h-auto rounded aspect-[3/4] object-cover"
+            />
           </div>
-        ))}
-      </main>
+
+          <div className="sm:w-[64%]">
+            <Image
+              src="/Ato 02 - O luto 03.JPG"
+              alt="Imagem esticada"
+              width={800}
+              height={1200}
+              className="rounded object-cover"
+            />
+        </div>
+
+          {/* Segunda linha com três imagens */}
+          <div className="w-full sm:w-[31%]">
+            <Image
+              src="/Ato 02 - O luto 01.JPG"
+              alt="Imagem"
+              width={1200}
+              height={1600}
+              className="w-full h-auto rounded aspect-[3/4] object-cover"
+            />
+          </div>
+          <div className="w-full sm:w-[31%]">
+            <Image
+              src="/Ato 02 - O luto 02.JPG"
+              alt="Imagem"
+              width={1200}
+              height={1600}
+              className="w-full h-auto rounded aspect-[3/4] object-cover"
+            />
+          </div>
+          <div className="w-full sm:w-[31%]">
+            <Image
+              src="/Ato 02 - O luto 04.JPG"
+              alt="Imagem"
+              width={1200}
+              height={1600}
+              className="w-full h-auto rounded aspect-[3/4] object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    ) : (
+
+      <div key={index} className="mb-12">
+        <h1 className="text-2xl font-bold my-6">{section.title}</h1>
+        <div className="flex flex-wrap gap-4">
+          {section.images.map((src, i) => (
+            <div key={i} className="w-full sm:w-[48%] lg:w-[31%]">
+              <Image
+                src={src}
+                alt={`Imagem ${i + 1}`}
+                width={1200}
+                height={1600}
+                className="w-full h-auto rounded aspect-[3/4] object-cover"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  ))}
+</main>
+
+      
 
       <section className="max-w-xl mx-auto px-4 text-center mt-10">
         <blockquote className="italic text-neutral-600 text-sm">
